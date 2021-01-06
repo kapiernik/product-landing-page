@@ -1,0 +1,9 @@
+*{margin: 0; padding:0; box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+body{
+    margin: 0 30px;
+    background-color: #eee;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
