@@ -94,7 +94,7 @@ ul{
     margin: 5% 90px;
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     "icon text";
     grid-row-gap: 40px;
@@ -112,4 +112,9 @@ ul{
 
 .features-text-description{
     font-size: 16px;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
 }
