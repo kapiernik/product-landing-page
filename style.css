@@ -1,9 +1,72 @@
 *{margin: 0; padding:0; box-sizing: border-box;}
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
-
 body{
-    margin: 0 30px;
+    margin: 0 90px;
     background-color: #eee;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#header{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-img{
+    width: 300px; /* you can use % */
+    height: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#header-nav{
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: #000;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+#email-form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#email{
+    width: 30vw;
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+#submit{
+    margin-top: 20px;
+    width: 50%;
+    padding: 5px 20px;
+    background-color: orange;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
 }
