@@ -7,6 +7,7 @@
 
 body{
     margin: 0 90px;
+    margin-bottom: 30px;
     background-color: #eee;
     font-family: 'Quicksand', sans-serif;
 }
@@ -18,7 +19,7 @@ body{
     background-color: #eee;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-items: center;
     align-items: center;
 }
 
@@ -78,7 +79,7 @@ ul{
     margin-top: 20px;
     width: 50%;
     padding: 5px 20px;
-    background-color: darkorange;
+    background-color: rgb(255, 230, 0);
     border: none;
     font-weight: 500;
     font-size: 20px;
@@ -87,7 +88,7 @@ ul{
 }
 
 #submit:hover{
-    background-color: rgb(223, 122, 0);
+    background-color: darkorange;
 }
 
 #features{
@@ -117,4 +118,51 @@ ul{
 #video{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
+
+#trombone-types{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.type{
+    border: 3px solid #000;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trombone-name{
+    background-color: #ddd;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+}
+
+.trombone-description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 2;
+    text-align: center;
+}
+
+.buy-button{
+    background-color: rgb(255, 230, 0);
+    padding: 8px 20px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.buy-button:hover{
+    background-color: darkorange;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
