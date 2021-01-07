@@ -207,13 +207,6 @@ a{
         margin: 0 60px;
     }
 
-    #email-form{
-        margin-left: -20px;
-    }
-    #header{
-        margin-left: -20px;
-    }
-
     #submit{
         font-size: 16px;
     }
@@ -232,10 +225,6 @@ a{
 
     .trombone-name{
         padding: 5px 25px;
-    }
-
-    footer{
-        margin-left: -50px;
     }
 }
 
@@ -283,15 +272,6 @@ a{
     .trombone-name{
         padding: 5px 25px;
     }
-
-    #header{
-        margin-left: -40px;
-    }
-
-    #footer{
-        margin-left: -40px;
-    }
-
 }
 
 /* Landscape phones and portrait tablets */
